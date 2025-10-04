@@ -18,16 +18,11 @@ function isAnagram(str1, str2) {
     }
   }
 
-  console.log(newStr1);
-  console.log(newStr2);
-
   if (count == newStr1.length && count == newStr2.length) {
     return true;
   } else {
     return false;
   }
 }
-
-console.log(isAnagram("Debit Card", "Bad Credit"));
 
 module.exports = isAnagram;
